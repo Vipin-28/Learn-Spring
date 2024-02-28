@@ -8,5 +8,9 @@
     <!-- bean definitions here -->
 
 
-    <bean id='doctor' class="com.vipinkumarx28.Doctor"/>
+    <bean id='doctor' class="com.vipinkumarx28.Doctor">
+            <property name ="qualification" value="MBBS"></property>
+            <property name="nurse" ref="nurse"></property>
+    </bean>
+    <bean id="nurse" class="com.vipinkumarx28.Nurse"></bean>
 </beans>
