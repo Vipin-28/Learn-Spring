@@ -1,6 +1,10 @@
 package com.vipinkumarx28;
 
 public class Doctor {
+    public Doctor(String qualification) {
+        this.qualification = qualification;
+    }
+
     private String qualification;
     private Nurse nurse;
     public void assist(){

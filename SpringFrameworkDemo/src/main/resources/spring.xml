@@ -9,8 +9,9 @@
 
 
     <bean id='doctor' class="com.vipinkumarx28.Doctor">
-            <property name ="qualification" value="MBBS"></property>
-            <property name="nurse" ref="nurse"></property>
+            <!--<property name ="qualification" value="MBBS"></property>
+            <property name="nurse" ref="nurse"></property>-->
+        <constructor-arg value="MBBS"/>
     </bean>
     <bean id="nurse" class="com.vipinkumarx28.Nurse"></bean>
 </beans>
