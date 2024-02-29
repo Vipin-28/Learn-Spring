@@ -13,13 +13,13 @@ public class Main {
 
 
         Doctor doctor = context.getBean(Doctor.class);
-        Nurse nurse = context.getBean(Nurse.class);
+//        Nurse nurse = context.getBean(Nurse.class);
         /*
             can also get object from using id
             Nurse nurse1 = (Nurse) context.getBean("nurse");
          */
         doctor.assist();
-        nurse.assist();
-        System.out.println(doctor.getQualification());
+//        nurse.assist();
+//        System.out.println(doctor.getQualification());
     }
 }

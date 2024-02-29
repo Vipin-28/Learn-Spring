@@ -1,5 +1,8 @@
 package com.vipinkumarx28;
 
+
+import org.springframework.stereotype.Component;
+
 public class Nurse {
 
     public void assist(){
