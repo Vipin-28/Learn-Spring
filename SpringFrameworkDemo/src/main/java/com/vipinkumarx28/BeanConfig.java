@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 //@ComponentScan(basePackages = "com.vipinkumarx28")
 public class BeanConfig {
 
-    @Bean
-    public Doctor doctor(){
-        return new Doctor();
-    }
+//    @Bean
+//    public Doctor doctor(){
+//        return new Doctor();
+//    }
 }
