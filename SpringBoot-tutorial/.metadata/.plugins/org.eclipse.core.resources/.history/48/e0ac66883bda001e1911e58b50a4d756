@@ -1,0 +1,5 @@
+package com.example.testmongo.repository;
+
+public interface UserRepository extends MongoRepository<User, String> {
+    // Additional custom queries can be added here if needed
+}

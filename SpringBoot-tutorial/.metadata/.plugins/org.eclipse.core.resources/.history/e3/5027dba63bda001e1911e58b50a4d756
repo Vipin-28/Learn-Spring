@@ -1,0 +1,5 @@
+package com.example.testmongo.controllers;
+
+public class UserController {
+
+}
